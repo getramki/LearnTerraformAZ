@@ -29,7 +29,7 @@ resource "azurerm_mysql_server" "mysqlserver" {
     enabled = true
     retention_days = 10
     email_account_admins = true
-    email_addresses = [ "none@example.com", "tf-az-examples@gmail.com" ]
+    email_addresses = [ "none@example.com", "tf-az-examples@example.com" ]
   }  
 */
   threat_detection_policy {
